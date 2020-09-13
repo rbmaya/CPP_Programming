@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/rmaya/CLionProjects/lab_1/tritset
+unordered_map
+-
+vector
+-
+cctype
+-
+
+C:/Users/rmaya/CLionProjects/lab_1/tritset.cpp
+climits
+-
+iostream
+-
+cmath
+-
+tritset
+C:/Users/rmaya/CLionProjects/lab_1/tritset
+

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/maya/CLionProjects/lab3/Board.cpp
+iostream
+-
+Board.h
+/home/maya/CLionProjects/lab3/Board.h
+
+/home/maya/CLionProjects/lab3/Board.h
+vector
+-
+

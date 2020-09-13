@@ -1,0 +1,10 @@
+desc
+0 = readfile in1.txt
+1 = grep sky
+2 = dump copy1.txt
+3 = replace sky space
+4 = dump copy2.txt
+5 = sort
+6 = writefile out1.txt
+csed
+0 -> 1 -> 2 -> 3 -> 4 -> 5 -> 6

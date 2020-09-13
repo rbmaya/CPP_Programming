@@ -1,0 +1,66 @@
+#ifndef LAB_1_TRITSET_
+#define LAB_1_TRITSET_
+
+#include <unordered_map>
+#include <vector>
+#include <cctype>
+
+using namespace std;
+
+enum Trit{
+    False = 0,
+    Unknown = 2,
+    True = 3
+};
+
+class TritSet{
+public:
+    explicit TritSet(const size_t & size);
+
+    size_t capacity() const;
+
+    size_t cardinality(Trit value);
+
+    unordered_map <Trit, int, hash<int>> cardinality();
+
+    void trim(size_t lastIndex);
+
+    size_t length();
+
+    class ProxyTritSet{
+    public:
+        ProxyTritSet(TritSet & set, size_t index);
+
+        ProxyTritSet & resize(size_t new_size);
+
+        Trit get_trit () const;
+
+        ProxyTritSet & operator = (Trit);
+
+        Trit operator ~ ();
+
+        Trit operator | (const ProxyTritSet &set2);
+
+        Trit operator & (const ProxyTritSet & set2);
+
+        bool operator == (Trit value);
+
+    private:
+        size_t index;
+        TritSet & set;
+    };
+
+    TritSet operator ~ ();
+
+    TritSet operator | (TritSet &set1);
+
+    TritSet operator & (TritSet & set1);
+
+    ProxyTritSet operator[](size_t index);
+
+private:
+    vector <unsigned int> set;
+    size_t trits_count;
+};
+
+#endif

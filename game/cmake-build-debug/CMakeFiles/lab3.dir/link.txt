@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/lab3.dir/main.cpp.o CMakeFiles/lab3.dir/Game.cpp.o CMakeFiles/lab3.dir/Gamer.cpp.o CMakeFiles/lab3.dir/Board.cpp.o  -o lab3 

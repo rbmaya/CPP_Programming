@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="lab2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/maya/CLionProjects/lab2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/maya/CLionProjects/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/maya/CLionProjects/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/maya/CLionProjects/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/maya/CLionProjects/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/maya/CLionProjects/lab2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/maya/CLionProjects/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/maya/CLionProjects/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/maya/CLionProjects/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/maya/CLionProjects/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab2">
+				<Option output="/home/maya/CLionProjects/lab2/cmake-build-debug/lab2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/maya/CLionProjects/lab2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/maya/CLionProjects/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/maya/CLionProjects/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/maya/CLionProjects/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/maya/CLionProjects/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab2/fast">
+				<Option output="/home/maya/CLionProjects/lab2/cmake-build-debug/lab2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/maya/CLionProjects/lab2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/maya/CLionProjects/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 lab2/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/maya/CLionProjects/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/maya/CLionProjects/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/maya/CLionProjects/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/maya/CLionProjects/lab2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/maya/CLionProjects/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/maya/CLionProjects/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/maya/CLionProjects/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/maya/CLionProjects/lab2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/maya/CLionProjects/lab2/DumpWorker.cpp">
+			<Option target="lab2"/>
+		</Unit>
+		<Unit filename="/home/maya/CLionProjects/lab2/DumpWorker.h">
+			<Option target="lab2"/>
+		</Unit>
+		<Unit filename="/home/maya/CLionProjects/lab2/GrepWorker.cpp">
+			<Option target="lab2"/>
+		</Unit>
+		<Unit filename="/home/maya/CLionProjects/lab2/GrepWorker.h">
+			<Option target="lab2"/>
+		</Unit>
+		<Unit filename="/home/maya/CLionProjects/lab2/ReaderWorker.cpp">
+			<Option target="lab2"/>
+		</Unit>
+		<Unit filename="/home/maya/CLionProjects/lab2/ReaderWorker.h">
+			<Option target="lab2"/>
+		</Unit>
+		<Unit filename="/home/maya/CLionProjects/lab2/ReplaceWorker.cpp">
+			<Option target="lab2"/>
+		</Unit>
+		<Unit filename="/home/maya/CLionProjects/lab2/ReplaceWorker.h">
+			<Option target="lab2"/>
+		</Unit>
+		<Unit filename="/home/maya/CLionProjects/lab2/SortWorker.cpp">
+			<Option target="lab2"/>
+		</Unit>
+		<Unit filename="/home/maya/CLionProjects/lab2/SortWorker.h">
+			<Option target="lab2"/>
+		</Unit>
+		<Unit filename="/home/maya/CLionProjects/lab2/WriteWorker.cpp">
+			<Option target="lab2"/>
+		</Unit>
+		<Unit filename="/home/maya/CLionProjects/lab2/WriteWorker.h">
+			<Option target="lab2"/>
+		</Unit>
+		<Unit filename="/home/maya/CLionProjects/lab2/factory.cpp">
+			<Option target="lab2"/>
+		</Unit>
+		<Unit filename="/home/maya/CLionProjects/lab2/factory.h">
+			<Option target="lab2"/>
+		</Unit>
+		<Unit filename="/home/maya/CLionProjects/lab2/main.cpp">
+			<Option target="lab2"/>
+		</Unit>
+		<Unit filename="/home/maya/CLionProjects/lab2/myException.cpp">
+			<Option target="lab2"/>
+		</Unit>
+		<Unit filename="/home/maya/CLionProjects/lab2/myException.h">
+			<Option target="lab2"/>
+		</Unit>
+		<Unit filename="/home/maya/CLionProjects/lab2/parser.cpp">
+			<Option target="lab2"/>
+		</Unit>
+		<Unit filename="/home/maya/CLionProjects/lab2/parser.h">
+			<Option target="lab2"/>
+		</Unit>
+		<Unit filename="/home/maya/CLionProjects/lab2/scheme.cpp">
+			<Option target="lab2"/>
+		</Unit>
+		<Unit filename="/home/maya/CLionProjects/lab2/scheme.h">
+			<Option target="lab2"/>
+		</Unit>
+		<Unit filename="/home/maya/CLionProjects/lab2/tests.cpp">
+			<Option target="lab2"/>
+		</Unit>
+		<Unit filename="/home/maya/CLionProjects/lab2/validator.cpp">
+			<Option target="lab2"/>
+		</Unit>
+		<Unit filename="/home/maya/CLionProjects/lab2/validator.h">
+			<Option target="lab2"/>
+		</Unit>
+		<Unit filename="/home/maya/CLionProjects/lab2/worker.cpp">
+			<Option target="lab2"/>
+		</Unit>
+		<Unit filename="/home/maya/CLionProjects/lab2/worker.h">
+			<Option target="lab2"/>
+		</Unit>
+		<Unit filename="/home/maya/CLionProjects/lab2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

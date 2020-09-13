@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/lab_1.dir/main.cpp.o CMakeFiles/lab_1.dir/tritset.cpp.o CMakeFiles/lab_1.dir/bites_oper.cpp.o CMakeFiles/lab_1.dir/tests.cpp.o  -o lab_1 

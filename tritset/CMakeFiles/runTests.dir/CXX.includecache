@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/maya/CLionProjects/lab_1/tests.cpp
+tritset
+/home/maya/CLionProjects/lab_1/tritset
+gtest/gtest.h
+-
+
+/home/maya/CLionProjects/lab_1/tritset
+unordered_map
+-
+vector
+-
+cctype
+-
+
